@@ -317,14 +317,20 @@ nav {
   background-color: var(--text-dark);
 }
 
+.instagram__container {
+  width: 100%; 
+  overflow: hidden; 
+  position: relative;
+}
+
 .instagram__flex {
   margin-top: 2rem;
   width: max-content;
   display: flex;
   align-items: center;
   gap: 1rem;
-
-  animation: scroll 45s linear infinite;
+  white-space: nowrap;
+  animation: scroll 45s linear infinite
 }
 
 .instagram__flex img {
