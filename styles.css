@@ -337,6 +337,22 @@ nav {
   }
 }
 
+.calendar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 20px; /* Ajuste la marge selon tes besoins */
+}
+
+#calendar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
 .footer__container {
   display: grid;
   gap: 4rem 0;
