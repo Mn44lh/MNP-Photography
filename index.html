@@ -12,6 +12,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="styles.css" />
+  
 
     <title>MNP Photographe</title>
   </head>
@@ -160,6 +161,27 @@
         <img src="styles/img_2.jpg" alt="instagram" />
       </div>
     </section>
+
+    <div class="calendar-container">
+      <div id="calendar-button">
+        <link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+        <script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+        <script>
+        (function() {
+          var target = document.currentScript;
+          window.addEventListener('load', function() {
+            calendar.schedulingButton.load({
+              url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1Jak59hDNc01R4pTyhxP3PC2G6Y2r1Ud18C2UmtUBa7-VgZze4pT9IncwK1IJwiTLG-YnwWGIb?gv=true',
+              color: '#039BE5',
+              label: 'Réserver un rendez-vous',
+              target,
+            });
+          });
+        })();
+        </script>
+      </div>
+    </div>
+
 
     <footer id="contact">
       <div class="section__container footer__container">
